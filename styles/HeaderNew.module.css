@@ -1,6 +1,4 @@
-.container {
-  padding: 0 2rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,300;0,500;1,100&display=swap');
 
 .main {
   min-height: 100vh;
@@ -12,13 +10,25 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
+.header {
+  /* display: flex;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 2px solid black;
   justify-content: center;
   align-items: center;
+  color:#0070f3 */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin-bottom: 15px;
+  color: #090030;
+  background-color: #fbfcfc;
+
+  -webkit-box-shadow: -2px 5px 11px 0px rgba(34, 60, 80, 0.18);
+  -moz-box-shadow: -2px 5px 11px 0px rgba(34, 60, 80, 0.18);
+  box-shadow: -2px 5px 11px 0px rgba(34, 60, 80, 0.18);
 }
 
 .footer a {
@@ -41,8 +51,13 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  padding: 10px;
+  
+  font-size: 2rem;
+  letter-spacing: 0.11em;
+  color: #090030;
+  font-family: 'Exo-2', Helvetica Neue, sans-serif;
+  font-weight: 300;
 }
 
 .title,
