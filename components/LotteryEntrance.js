@@ -68,6 +68,14 @@ export default function LotteryEntrance() {
                 raffle.on("WinnerPicked", async (address) => {
                     try {
                         console.log("Winner Picked ", address)
+                        //updateUI()
+                        dispatch({
+                            type: "info",
+                            message: `Winner: ${address}`,
+                            title: "Tx notification",
+                            position: "topR",
+                            icon: "bell",
+                        })
                         updateUI()
                         resolve()
                     } catch (e) {
