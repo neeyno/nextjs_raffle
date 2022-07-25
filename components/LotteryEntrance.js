@@ -181,7 +181,7 @@ export default function LotteryEntrance() {
                 </div>
             ) : (
                 <div className={styles.notConnected}>
-                    No contract address detected!
+                    No contract address detected! Connect Wallet
                 </div>
             )}
         </div>
