@@ -1,6 +1,13 @@
+# NextJS Raffle app
+This repository contains the front-end part of the Raffle decentralized application. The application enables Metamask wallet connection and allows users to enter the raffle for a small fee.
+
+
 - [Live DEMO](https://autumn-leaf-9639.on.fleek.co/)
 works on Rinkeby network.
 
+- [Raffle Smart Contract repo](https://github.com/neeyno/hardhat_raffle)
+
+## //
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
